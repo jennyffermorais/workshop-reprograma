@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/*BANNER*/
+
+.banner {
+  background-image: url("../img/banner-meu.jpg");
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner-info {
+    padding-top: 6vh;
+    text-align: left;
+    padding-left: 69px;
+}
+
+.banner-info a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(184, 12, 98);
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+}
+
+.banner-info p {
+  color: rgb(100, 100, 100);
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/*cor que aparece quando passo o mouse*/
+.banner-info a:hover {
+  background-color: rgb(236, 201, 226);
+}
+
+h1 {
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 3rem;
+  margin: 0%;
+  color: rgb(100, 100, 100);
+}
+
+h2 {
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 2rem;
+  }
+
+h3 {
+  font-family: "Lexend Exa", sans-serif;
+  text-align: center;
+  }
+
+/* SOBRE MIM */
+
+.sobre-mim,
+.redes-sociais {
+  max-width: 1028px;
+  margin: 0 auto;
+  padding: 5rem 0 0 0;
+}
+
+.sobre-mim_habilidades {
+  display: flex;
+}
+
+.sobre-mim_habilidades_titulo {
+  max-width: 30rem;
+  margin-right: 2rem;
+}
+
+.sobre-mim_habilidades_titulo a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  background-color: rgb(184, 12, 98);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  text-align: center;
+}
+
+.sobre-mim p {
+    text-align: justify
+}
+
+
+/* REDES SOCIAIS */
+
+.redes-sociais_item_facebook,
+.redes-sociais_item_linkedin,
+.redes-sociais_item_twitter,
+.redes-sociais_item_instagram {
+  background-color: rgb(184, 12, 98);
+  padding: 2rem;
+  width: 226px;
+ }
+
+.redes-sociais_item a {
+    color: white;
+    text-decoration: none;
+}
+
+.redes-sociais_item {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.redes-sociais_item img {
+  height: 75px;
+}
+
+
+/*FOOTER*/
+
+footer {
+  text-align: center;
+  margin: 3rem 0;
+}
